@@ -12,11 +12,15 @@ Detailed installation steps refer to the following link: http://www.automationte
 ### Step 2.1:Download the project and import.
 1. Download the project by github.<br>
 ![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/5.png)
-Clone or download->Download ZIP->unzip in your windows
+Clone or download->Download ZIP->unzip in your windows<br>
 2. Import this project as gradle at eclipse.(Make sure your eclipse has gradle installed)<br>
-Open eclipse->File->new->other
+Open eclipse->File->new->other<br>
+The following window pops up to see if there is a gradle project<br>
 ![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/6.png)
-If you don't have gradle installed, create gradle in eclipse.
+If you don't have gradle installed, create gradle in eclipse.<br>
+Help->Eclipse Marketplace    Pop up the following dialog<br>
+![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/7.png)
+![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/8.png)
 ### Step 2.2:Modify configuration file config.properties
 Modify the following lines at config.properties
 ![Image text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%871.png)
