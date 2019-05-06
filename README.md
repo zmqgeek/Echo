@@ -1,7 +1,7 @@
 # Echo
 
+Our Echo Tutorial covers user-guide, examples with screenshots to make it easy for beginners to set up our tools and test Android apps.
 
-Setting up Echo is not a simple process of installing a single tool. It involves downloading and installing many tools, and setting up a few system variables. Our Echo Tutorial Series would cover all these articles in detail, providing ample examples, additional details and tons of screenshots to make it really easy for complete beginners to follow our tutorials.
 ## Step 1:Setup Echo tool Environment
 you need to install eclipse、Android and appium.
 Detailed installation steps refer to the following link: http://www.automationtestinghub.com/appium-tutorial/
@@ -9,22 +9,28 @@ Detailed installation steps refer to the following link: http://www.automationte
 
 
 ## Step 2:Import this tool
+
 ### Step 2.1:Download the project and import.
 1. Download the project by github.<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/5.png)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
 Clone or download->Download ZIP->unzip in your windows<br>
 2. Import this project as gradle at eclipse.(Make sure your eclipse has gradle installed)<br>
-Open eclipse->File->new->other<br>
+(1) Open eclipse->File->new->other<br>
 The following window pops up to see if there is a gradle project<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/6.png)
-If you don't have gradle installed, create gradle in eclipse.<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/6.png"/></div>
+(2) If you don't have gradle installed, create gradle in eclipse.<br>
 Help->Eclipse Marketplace    Pop up the following dialog<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/7.png)
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/8.png)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/7.png"/></div>
+(3) Gradle user home configuration, which is the installation path of your gradle.<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/8.png"/></div>
+(4) Import the source code downloaded above.<br>
+File->Import->Gradle->Existing Gradle Project<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/9.png"/></div>
+
 ### Step 2.2:Modify configuration file config.properties
 Modify the following lines at config.properties
-![Image text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%871.png)
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%872.png)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%871.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%872.png"/></div>
 
 1: Change to yours Android app directory.(You need to create a file in advance to store the apk you need to test.)<br>
 2: Change to yours Instrumented app directory.<br>
@@ -39,12 +45,25 @@ Modify the following lines at config.properties
 11:Check if this path is consistent with your system-activities file path，if the inconsistency is changed to your path.<br>
 
 ### Step 2.3:Modify configuration file Settings.gradle<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%873.png)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%873.png"/></div>
 Check if this path is consistent with your project file path，if the inconsistency is changed to your path.<br>
-## Step 3:Begin to testing  
+
+
+## Step 3: Testing  
+
 ### Step 3.1:Create a Android Emulator named Nexus_5_API_19 and open it.
+Choose Create Device->named Nexus_5_API_19<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/10.png"/></div>
+(2) run it (Click the start button)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/11.png"/></div>
+
 ### Step 3.2:Open appium desktop. 
+(1) Double-click the appium shortcut for your windows desktop.<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/12.png"/></div>
+(2)Choose Advanced->Check Allow Session Override. The following interface appears.<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/13.png"/></div>
+
 ### Step 3.3:testing app
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div>
 Run gradle tasks test
 
