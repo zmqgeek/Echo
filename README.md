@@ -12,6 +12,7 @@ Detailed installation steps refer to the following link: http://www.automationte
 
 ### Step 2.1:Download the project and import.
 1. Download the project by github.<br>
+<div align=center><img width="150" height="150" src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
 ![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/5.png)<br>
 Clone or download->Download ZIP->unzip in your windows<br>
 2. Import this project as gradle at eclipse.(Make sure your eclipse has gradle installed)<br>
