@@ -46,8 +46,8 @@ File->Import->Gradle->Existing Gradle Project<br>
 ### Step 2.2:Modify configuration file config.properties
 Modify the following lines at config.properties
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%871.png"/></div>
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%872.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/1.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/2.png"/></div>
 
 1: Change to yours Android app directory.(You need to create a file in advance to store the apk you need to test.)<br>
 2: Change to yours Instrumented app directory.<br>
@@ -89,14 +89,18 @@ Choose Create Device->named Nexus_5_API_19<br>
 
 ### Step 3.3:testing app
 
-Run gradle tasks test
+1.Run gradle tasks test
 
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div><br>
 
-You will see the program running as follows.<br>
+2.You will see the program running as follows.<br>
 
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/14.png"/></div><br>
 
-After the stopped in bug state, you will be able to see the following file generated from the corresponding output folder.<br>
+3.After the stopped in bug state, you will be able to see the following file generated from the corresponding output folder.<br>
 
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/15.png"/></div><br>
+
+4.Calculate the shortest path replay the error based on the generated file.<br>
+
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/16.png"/></div><br>
