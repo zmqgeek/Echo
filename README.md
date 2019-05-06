@@ -3,7 +3,8 @@
 Our Echo Tutorial covers user-guide, examples with screenshots to make it easy for beginners to set up our tools and test Android apps.
 
 ## Step 1:Setup Echo tool Environment
-you need to install eclipse、Android and appium.
+you need to install eclipse、Android and appium.<br>
+
 Detailed installation steps refer to the following link: http://www.automationtestinghub.com/appium-tutorial/
 ### If you have installed these Environment, or looking only for specific details, then you can skip through the step and focus on those which you are not installed.
 
@@ -90,6 +91,12 @@ Choose Create Device->named Nexus_5_API_19<br>
 
 Run gradle tasks test
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div><br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/14.png"/></div>
+You will see the program running as follows.<br>
+
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/14.png"/></div><br>
+
+After the stopped in bug state, you will be able to see the following file generated from the corresponding output folder.<br>
+
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/15.png"/></div><br>
