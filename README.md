@@ -64,6 +64,7 @@ Choose Create Device->named Nexus_5_API_19<br>
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/13.png"/></div>
 
 ### Step 3.3:testing app
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div>
-Run gradle tasks test
 
+Run gradle tasks test
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/14.png"/></div>
