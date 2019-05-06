@@ -3,21 +3,22 @@
 Our Echo Tutorial covers user-guide, examples with screenshots to make it easy for beginners to set up our tools and test Android apps.
 
 ## Step 1:Setup Echo tool Environment
-you need to install eclipse、Android and appium.
+you need to install eclipse、Android and appium.<br>
+
 Detailed installation steps refer to the following link: http://www.automationtestinghub.com/appium-tutorial/
 ### If you have installed these Environment, or looking only for specific details, then you can skip through the step and focus on those which you are not installed.
 
 
 ## Step 2:Import this tool
 
-### Step 2.1:Download the project and import.
-
+### Step 2.1:Download the project and import.<br>
+<br>
 1. Download the project by github.<br>
 
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
 
 Clone or download->Download ZIP->unzip in your windows<br>
-
+<br>
 2. Import this project as gradle at eclipse.(Make sure your eclipse has gradle installed)<br>
 
 (1) Open eclipse->File->new->other<br>
@@ -45,8 +46,8 @@ File->Import->Gradle->Existing Gradle Project<br>
 ### Step 2.2:Modify configuration file config.properties
 Modify the following lines at config.properties
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%871.png"/></div>
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%872.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/1.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/2.png"/></div>
 
 1: Change to yours Android app directory.(You need to create a file in advance to store the apk you need to test.)<br>
 2: Change to yours Instrumented app directory.<br>
@@ -88,8 +89,18 @@ Choose Create Device->named Nexus_5_API_19<br>
 
 ### Step 3.3:testing app
 
-Run gradle tasks test
+1.Run gradle tasks test
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div><br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/14.png"/></div>
+2.You will see the program running as follows.<br>
+
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/14.png"/></div><br>
+
+3.After the stopped in bug state, you will be able to see the following file generated from the corresponding output folder.<br>
+
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/15.png"/></div><br>
+
+4.Calculate the shortest path replay the error based on the generated file.<br>
+
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/16.png"/></div><br>
