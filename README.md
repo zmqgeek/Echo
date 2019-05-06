@@ -12,21 +12,20 @@ Detailed installation steps refer to the following link: http://www.automationte
 
 ### Step 2.1:Download the project and import.
 1. Download the project by github.<br>
-<div align=center><img width="150" height="150" src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/5.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
 Clone or download->Download ZIP->unzip in your windows<br>
 2. Import this project as gradle at eclipse.(Make sure your eclipse has gradle installed)<br>
 (1) Open eclipse->File->new->other<br>
 The following window pops up to see if there is a gradle project<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/6.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/6.png"/></div>
 (2) If you don't have gradle installed, create gradle in eclipse.<br>
 Help->Eclipse Marketplace    Pop up the following dialog<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/7.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/7.png"/></div>
 (3) Gradle user home configuration, which is the installation path of your gradle.<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/8.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/8.png"/></div>
 (4) Import the source code downloaded above.<br>
 File->Import->Gradle->Existing Gradle Project<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/9.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/9.png"/></div>
 
 ### Step 2.2:Modify configuration file config.properties
 Modify the following lines at config.properties
