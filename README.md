@@ -49,16 +49,12 @@ Modify the following lines at config.properties
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/1.png"/></div>
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/2.png"/></div>
 
-1: Change to yours Android app directory.(You need to create a file in advance to store the apk you need to test.)<br>
-2: Change to yours Instrumented app directory.<br>
-3: Change to yours android.jar location.<br>
+1: yours Android app directory.(You need to create a file in advance to store the apk you need to test.)<br>
+
 4: Change to yours output directory.(You need to create a output file to save files generated during the test.)<br>
-5: Change to yours files required by FlowDroid.<br>
-6: Change to yours current project location.<br>
-7: Change to yours the location of adb tool.<br>
-8: Change to yours Android SDK location.<br>
-9: Change to yours SDK tool-version.<br>
+
 10: Change to yours JVM Configurations.(Generally this is the default, but you can modify it according to your needs.)<br>
+
 11:Check if this path is consistent with your system-activities file path，if the inconsistency is changed to your path.<br>
 
 ### Step 2.3:Modify configuration file Settings.gradle<br>
