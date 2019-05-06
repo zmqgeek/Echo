@@ -29,8 +29,8 @@ File->Import->Gradle->Existing Gradle Project<br>
 
 ### Step 2.2:Modify configuration file config.properties
 Modify the following lines at config.properties
-![Image text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%871.png)
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%872.png)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%871.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%872.png"/></div>
 
 1: Change to yours Android app directory.(You need to create a file in advance to store the apk you need to test.)<br>
 2: Change to yours Instrumented app directory.<br>
@@ -45,7 +45,7 @@ Modify the following lines at config.properties
 11:Check if this path is consistent with your system-activities file path，if the inconsistency is changed to your path.<br>
 
 ### Step 2.3:Modify configuration file Settings.gradle<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%873.png)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%873.png"/></div>
 Check if this path is consistent with your project file path，if the inconsistency is changed to your path.<br>
 
 
@@ -53,17 +53,17 @@ Check if this path is consistent with your project file path，if the inconsiste
 
 ### Step 3.1:Create a Android Emulator named Nexus_5_API_19 and open it.
 Choose Create Device->named Nexus_5_API_19<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/10.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/10.png"/></div>
 (2) run it (Click the start button)
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/11.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/11.png"/></div>
 
 ### Step 3.2:Open appium desktop. 
 (1) Double-click the appium shortcut for your windows desktop.<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/12.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/12.png"/></div>
 (2)Choose Advanced->Check Allow Session Override. The following interface appears.<br>
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/13.png)<br>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/13.png"/></div>
 
 ### Step 3.3:testing app
-![Image_text](https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png)
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div>
 Run gradle tasks test
 
