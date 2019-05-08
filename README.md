@@ -96,4 +96,4 @@ Choose Create Device->named Nexus_5_API_19<br>
 
 4.Calculate the shortest path replay the error based on the generated file.<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/16.png"/></div><br>
+<div align=center><img width="600" height="432" src="https://github.com/zmqgeek/Echo/blob/master/img/16.png"/></div><br>
