@@ -7,8 +7,8 @@ you need to install eclipse、Android and appium.<br>
 
 Detailed installation steps refer to the following link: http://www.automationtestinghub.com/appium-tutorial/
 ### If you have installed these Environment, or looking only for specific details, then you can skip through the step and focus on those which you are not installed.
-
-
+<br>
+<br>
 ## Step 2:Import this tool
 
 ### Step 2.1:Download the project and import.<br>
@@ -61,7 +61,8 @@ Modify the following lines at config.properties
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%873.png"/></div>
 
 Check if this path is consistent with your project file path，if the inconsistency is changed to your path.<br>
-
+<br>
+<br>
 
 ## Step 3: Testing  
 
