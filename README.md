@@ -23,23 +23,23 @@ Clone or download->Download ZIP->unzip in your windows<br>
 
 The following window pops up to see if there is a gradle project<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/6.png"/></div>
+<div align=center><img width="600" height="499" src="https://github.com/zmqgeek/Echo/blob/master/img/6.png"/></div>
 
 (2) If you don't have gradle installed, create gradle in eclipse.<br>
 
 Help->Eclipse Marketplace    Pop up the following dialog<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/7.png"/></div>
+<div align=center><img width="600" height="405" src="https://github.com/zmqgeek/Echo/blob/master/img/7.png"/></div>
 
 (3) Gradle user home configuration, which is the installation path of your gradle.<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/8.png"/></div>
+<div align=center><img width="600" height="487" src="https://github.com/zmqgeek/Echo/blob/master/img/8.png"/></div>
 
 (4) Import the source code downloaded above.<br>
 
 File->Import->Gradle->Existing Gradle Project<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/9.png"/></div><br><br>
+<div align=center><img width="600" height"545" src="https://github.com/zmqgeek/Echo/blob/master/img/9.png"/></div><br><br>
 
 ### Step 2.2:Modify configuration file config.properties
 Modify the following lines at config.properties
@@ -65,11 +65,11 @@ Check if this path is consistent with your project file path，if the inconsiste
 ### Step 3.1:Create a Android Emulator named Nexus_5_API_19 and open it.<br>
 Choose Create Device->named Nexus_5_API_19<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/10.png"/></div>
+<div align=center><img width="600" height="322" src="https://github.com/zmqgeek/Echo/blob/master/img/10.png"/></div>
 
 (2) run it (Click the start button)
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/11.png"/></div><br><br>
+<div align=center><img width="600" height="118" src="https://github.com/zmqgeek/Echo/blob/master/img/11.png"/></div><br><br>
 
 ### Step 3.2:Open appium desktop. 
 (1) Double-click the appium shortcut for your windows desktop.<br>
