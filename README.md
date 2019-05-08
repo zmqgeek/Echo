@@ -13,7 +13,7 @@ Detailed installation steps refer to the following link: http://www.automationte
 ### Step 2.1:Download the project and import.<br>
 1. Download the project by github.<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
+<div align=center><img width="600" height="301" src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
 
 Clone or download->Download ZIP->unzip in your windows<br>
 <br>
@@ -74,25 +74,25 @@ Choose Create Device->named Nexus_5_API_19<br>
 ### Step 3.2:Open appium desktop. 
 (1) Double-click the appium shortcut for your windows desktop.<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/12.png"/></div>
+<div align=center><img  width="600" height="453" src="https://github.com/zmqgeek/Echo/blob/master/img/12.png"/></div>
 
 (2)Choose Advanced->Check Allow Session Override. The following interface appears.<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/13.png"/></div><br><br>
+<div align=center><img width="600" height="561" src="https://github.com/zmqgeek/Echo/blob/master/img/13.png"/></div><br><br>
 
 ### Step 3.3:testing app
 
 1.Run gradle tasks test
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div><br>
+<div align=center><img width="600" height="297" src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%874.png"/></div><br>
 
 2.You will see the program running as follows.<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/14.png"/></div><br>
+<div align=center><img width="600" height"415" src="https://github.com/zmqgeek/Echo/blob/master/img/14.png"/></div><br>
 
 3.After the stopped in bug state, you will be able to see the following file generated from the corresponding output folder.<br>
 
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/15.png"/></div><br>
+<div align=center><img width="600" height="381" src="https://github.com/zmqgeek/Echo/blob/master/img/15.png"/></div><br>
 
 4.Calculate the shortest path replay the error based on the generated file.<br>
 
