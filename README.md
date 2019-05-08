@@ -6,12 +6,11 @@ Our Echo Tutorial covers user-guide, examples with screenshots to make it easy f
 you need to install eclipse、Android and appium.<br>
 
 Detailed installation steps refer to the following link: http://www.automationtestinghub.com/appium-tutorial/
-### If you have installed these Environment, or looking only for specific details, then you can skip through the step and focus on those which you are not installed.<br><br>
+### If you have installed these Environment, or looking only for specific details, then you can skip through the step and focus on those which you are not installed.<br><br><br>
 
-## Step 2:Import this tool
+## `Step 2:Import this tool`
 
 ### Step 2.1:Download the project and import.<br>
-<br>
 1. Download the project by github.<br>
 
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
@@ -59,13 +58,9 @@ Modify the following lines at config.properties
 ### Step 2.3:Modify configuration file Settings.gradle<br>
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%873.png"/></div>
 
-Check if this path is consistent with your project file path，if the inconsistency is changed to your path.<br>
+Check if this path is consistent with your project file path，if the inconsistency is changed to your path.<br><br><br>
 
-
-
-
-
-## Step 3: Testing  
+## `Step 3:Testing`
 
 ### Step 3.1:Create a Android Emulator named Nexus_5_API_19 and open it.
 Choose Create Device->named Nexus_5_API_19<br>
