@@ -2,14 +2,11 @@
 
 Our Echo Tutorial covers user-guide, examples with screenshots to make it easy for beginners to set up our tools and test Android apps.
 
-## Step 1:Setup Echo tool Environment
+## `Step 1:Setup Echo tool Environment`
 you need to install eclipse、Android and appium.<br>
 
 Detailed installation steps refer to the following link: http://www.automationtestinghub.com/appium-tutorial/
-### If you have installed these Environment, or looking only for specific details, then you can skip through the step and focus on those which you are not installed.
-
-
-
+### If you have installed these Environment, or looking only for specific details, then you can skip through the step and focus on those which you are not installed.<br><br>
 
 ## Step 2:Import this tool
 
