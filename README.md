@@ -13,27 +13,27 @@ Detailed installation steps refer to the following link: http://www.automationte
 ### Step 2.1:Download the project and import.<br>
 1. Download the project by github.<br>
 
-<div align=center><img width="600" height="301" src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div>
+<div align=center><img width="600" height="301" src="https://github.com/zmqgeek/Echo/blob/master/img/5.png"/></div><br>
 
 Clone or download->Download ZIP->unzip in your windows<br>
-<br>
+
 2. Import this project as gradle at eclipse.(Make sure your eclipse has gradle installed)<br>
 
 (1) Open eclipse->File->new->other<br>
 
 The following window pops up to see if there is a gradle project<br>
 
-<div align=center><img width="600" height="499" src="https://github.com/zmqgeek/Echo/blob/master/img/6.png"/></div>
+<div align=center><img width="600" height="499" src="https://github.com/zmqgeek/Echo/blob/master/img/6.png"/></div><br>
 
 (2) If you don't have gradle installed, create gradle in eclipse.<br>
 
 Help->Eclipse Marketplace    Pop up the following dialog<br>
 
-<div align=center><img width="600" height="405" src="https://github.com/zmqgeek/Echo/blob/master/img/7.png"/></div>
+<div align=center><img width="600" height="405" src="https://github.com/zmqgeek/Echo/blob/master/img/7.png"/></div><br>
 
 (3) Gradle user home configuration, which is the installation path of your gradle.<br>
 
-<div align=center><img width="600" height="487" src="https://github.com/zmqgeek/Echo/blob/master/img/8.png"/></div>
+<div align=center><img width="600" height="487" src="https://github.com/zmqgeek/Echo/blob/master/img/8.png"/></div><br>
 
 (4) Import the source code downloaded above.<br>
 
@@ -45,7 +45,7 @@ File->Import->Gradle->Existing Gradle Project<br>
 Modify the following lines at config.properties
 
 <div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/1.png"/></div>
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/2.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/2.png"/></div><br>
 
 1: yours Android app directory.(You need to create a file in advance to store the apk you need to test.)<br>
 
@@ -56,7 +56,7 @@ Modify the following lines at config.properties
 11:Check if this path is consistent with your system-activities file path，if the inconsistency is changed to your path.<br><br>
 
 ### Step 2.3:Modify configuration file Settings.gradle<br>
-<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%873.png"/></div>
+<div align=center><img src="https://github.com/zmqgeek/Echo/blob/master/img/%E5%9B%BE%E7%89%873.png"/></div><br>
 
 Check if this path is consistent with your project file path，if the inconsistency is changed to your path.<br><br><br>
 
@@ -65,7 +65,7 @@ Check if this path is consistent with your project file path，if the inconsiste
 ### Step 3.1:Create a Android Emulator named Nexus_5_API_19 and open it.<br>
 Choose Create Device->named Nexus_5_API_19<br>
 
-<div align=center><img width="600" height="322" src="https://github.com/zmqgeek/Echo/blob/master/img/10.png"/></div>
+<div align=center><img width="600" height="322" src="https://github.com/zmqgeek/Echo/blob/master/img/10.png"/></div><br>
 
 (2) run it (Click the start button)
 
@@ -74,7 +74,7 @@ Choose Create Device->named Nexus_5_API_19<br>
 ### Step 3.2:Open appium desktop. 
 (1) Double-click the appium shortcut for your windows desktop.<br>
 
-<div align=center><img  width="600" height="453" src="https://github.com/zmqgeek/Echo/blob/master/img/12.png"/></div>
+<div align=center><img  width="600" height="453" src="https://github.com/zmqgeek/Echo/blob/master/img/12.png"/></div><br>
 
 (2)Choose Advanced->Check Allow Session Override. The following interface appears.<br>
 
